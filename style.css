@@ -50,12 +50,15 @@ a { text-decoration: none;
         padding-top: 30px;
 }
 .icon { 
+        width: 100%;
+        display: flex;
         justify-content: center;
         align-items: center;
-        display: flex;
+        flex-wrap: wrap;
 }
 .icon a{
         display: inline-block;
+        width: 20%;
 }
 .icon_img { 
         width: 90px;
@@ -102,6 +105,7 @@ body{
         margin: 0;
         padding: 0;
         overflow-y: scroll;
+        z-index: 1;
 }
 #tutorial.modal{
         display: flex;
@@ -233,16 +237,34 @@ footer { display: block;
         font-family: Georgia, "Time New Roman", serif;
         text-align: center;
 }
-@media only screen and (max-width: 1023px) { 
-        main {
-                max-width: 100vw;
-        }
+@media (max-width: 1023px) {
+        #wrapper_header {
+                width: 100%;
+        } 
         #content {
-                width: 100vw;
+                width: 100%;
+        }
+        #content .icon{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+        }
+        #content .icon a {
+                width: 25%;
         }
 }
 @media only screen and (max-width: 740px) {
         main {
-                max-width: 100%;
+                padding-top: 90px;
+        }
+        #content .icon a {
+                width: 50%;
+        }
+        #wrapper_header {
+                display: block;
+        }
+        #wrapper_header  div{
+                width: 100%;
+                margin: 0;
         }
 }
