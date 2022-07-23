@@ -1,0 +1,44 @@
+main { margin-top: 100px; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.progress {
+    position: relative;
+    width: 70%;
+    height: 30px;
+    background-color: #9cbab4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.progress--fill {
+    width: 0%;
+    height: 100%;
+    background: #009579;
+}
+.progress--text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px 'Quicksand', sans-serif;
+    color: #FFFFFF;
+}
+.language--text {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font: bold 14px 'Quicksand', sans-serif;
+    color: #000000;
+}
+footer { display: block;
+    font-size: 75%; 
+    font-style: italic;
+    padding: 15px;
+    margin-bottom: 0;
+    font-family: Georgia, "Time New Roman", serif;
+    text-align: center;
+}
+
