@@ -24,6 +24,7 @@ html{
         display: flex;
         justify-content: center;
         align-items: center; 
+        border-radius: 10px;
 }
 .element:hover { border: 4px solid #000; 
         cursor: pointer;
@@ -66,6 +67,7 @@ a { text-decoration: none;
         margin: 80px;
         padding: 15px 15px;
         background-color: #030836;
+        border-radius: 10px;
 }
 
 .img_tutorial{
@@ -202,6 +204,10 @@ nav ul { list-style-type: none;
 		padding-left: 0;
 		font-size: 1.2em;
 }
+nav a:hover { 
+        background: #fff;
+        color: #333;
+ }
 h2 { color: #00664D; 
 }
 
@@ -267,4 +273,10 @@ footer { display: block;
                 width: 100%;
                 margin: 0;
         }
+}
+video {
+        display: block;
+        margin: 1em auto;
+        width: 70%;
+        height: calc(.5625 * 80vw);
 }
