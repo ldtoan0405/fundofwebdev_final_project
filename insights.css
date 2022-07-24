@@ -34,12 +34,12 @@ main { margin-top: 100px;
     font: bold 14px 'Quicksand', sans-serif;
     color: #000000;
 }
-footer { display: block;
+#footer { display: block;
     font-size: 75%; 
     font-style: italic;
     padding: 15px;
-    margin-bottom: 0;
     font-family: Georgia, "Time New Roman", serif;
     text-align: center;
+    box-sizing: none;
 }
 

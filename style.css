@@ -10,7 +10,7 @@ html{
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        font-family: bahnschrift, sans-serif;
+        font-family: 'bahnschrift', sans-serif;
 }
 .clear{
         clear:both;
@@ -275,8 +275,6 @@ footer { display: block;
         }
 }
 video {
-        display: block;
-        margin: 1em auto;
-        width: 70%;
-        height: calc(.5625 * 80vw);
+        margin-bottom: 10px;
+        width: 40%;
 }
